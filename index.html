@@ -9,21 +9,51 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navigation">
       <div class="nav-grid-container">
-        <img class="logo" src="./photos/Business_logo.png" alt="" />
+        <a href="./index.html">
+          <img class="logo" src="./photos/Business_logo.png" alt="" />
+        </a>
+        <nav class="navbar">
+          <a class="nav-item" href="./about.html">About</a>
+          <a class="nav-item" href="./work.html">Work</a>
+          <a class="nav-item" href="./team.html">Team</a>
+          <a class="nav-item" href="./blog.html">Blog</a>
+          <a class="nav-item" href="./contact.html">Contact</a>
+        </nav>
+        <a href="mailto:mail"><button class="btn">Contact</button></a>
       </div>
     </nav>
     <!-- hero img -->
     <div class="hero-img-container">
-      <img src="./photos/hero.svg" alt="" />
+      <img class="hero-img" src="./photos/hero.svg" alt="" />
     </div>
-    <div class="moto container">
-      <h4>What We Believe In</h4>
-      <h1>Grow your business, establish your brand,and put</h1>
-      <h1>your customers first</h1>
+    <div class="content-container">
+      <div class="moto-container">
+        <h4>What We Believe In</h4>
+        <h1>Grow your business, establish your brand,and put</h1>
+        <h1>your customers first</h1>
+      </div>
+
+      <!-- about grid -->
+      <div class="about-grid">
+        <div class="about-text">
+          <h5>About</h5>
+          <h3>Who we are</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel
+            doloribus quas, beatae laudantium repellat soluta non magni
+            deserunt, aliquam, natus exercitationem itaque illo? Id, ut ad.
+            Veritatis, provident cumque?
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+        <div class="about-img">
+          <img src="./photos/card.svg" alt="" />
+        </div>
+      </div>
     </div>
-    <!-- about grid -->
+    <footer></footer>
     <script src="./app.js"></script>
   </body>
 </html>

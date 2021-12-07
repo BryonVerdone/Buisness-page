@@ -2,14 +2,37 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 /* 
 ==========
 Navbar
 ==========
 
 */
-.logo {
+.navigation {
+  padding: 30px 50px;
 }
+.nav-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  place-items: center;
+}
+.logo {
+  width: 108px;
+  height: 26px;
+}
+.navbar {
+}
+.nav-item {
+}
+.btn {
+  background: black;
+  color: white;
+}
+
 /* 
 ==========
 Hero Section
@@ -18,7 +41,29 @@ Hero Section
 */
 
 .hero-img-container {
-  height: 620px;
-  background-image: url(./photos/hero.svg);
+  display: flex;
+  height: 100%;
+  margin: 0 5rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+.hero-img {
   object-fit: cover;
+  width: 100%;
+}
+
+/* PAGE CONTENT */
+.moto-container {
+  text-align: center;
+}
+/* 
+==========
+About Section
+==========
+
+*/
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
