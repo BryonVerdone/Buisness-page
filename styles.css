@@ -2,8 +2,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* 
+==========
+Navbar
+==========
+
+*/
+.logo {
+}
+/* 
+==========
+Hero Section
+==========
+
+*/
 
 .hero-img-container {
+  height: 620px;
   background-image: url(./photos/hero.svg);
   object-fit: cover;
 }
