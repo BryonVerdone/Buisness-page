@@ -27,10 +27,14 @@ Navbar
 .navbar {
 }
 .nav-item {
+  color: black;
+  margin: 1rem;
 }
 .btn {
+  font-size: 2rem;
   background: black;
   color: white;
+  cursor: pointer;
 }
 
 /* 
@@ -62,8 +66,47 @@ About Section
 ==========
 
 */
-
+.content-container {
+  max-width: 1140px;
+  text-align: center;
+  margin: auto auto;
+}
 .about-grid {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  grid-template-columns: 1fr 2fr;
+}
+.about-text-container {
+  margin: 2rem;
+}
+.about-img-container {
+  width: 100%;
+  margin: 0 1rem;
+}
+.about-img {
+  width: 100%;
+}
+
+.team-grid {
+  width: 100%;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: 2fr 1fr;
+}
+/* 
+==========
+Company News Section
+==========
+*/
+.section-heading {
+  text-align: center;
+}
+.company-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  margin: 2rem 0;
+  gap: 2rem;
 }
