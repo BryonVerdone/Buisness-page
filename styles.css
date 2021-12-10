@@ -141,20 +141,21 @@ About page
 
 .about-hero-container {
   position: relative;
-  /* height: 789.078px;
-  width: 1743px; */
+  height: 789.078px;
+  width: 1743px;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
 
-  margin: 0 5rem;
-  margin-bottom: 5rem;
+  margin: auto auto;
+  /* margin-bottom: 5rem; */
   justify-content: center;
   background: black;
 }
 .about-hero-text {
   font-size: 2rem;
   width: 100%;
+  background: black;
   color: white;
   text-align: center;
   position: absolute;
