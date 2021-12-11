@@ -203,3 +203,35 @@ Work page
 .project-text {
   text-align: center;
 }
+/* 
+==========
+Project page
+==========
+*/
+
+.project-page-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+/* 
+==========
+Team page
+==========
+*/
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.team-card {
+  text-align: center;
+}
+.team-card img {
+  box-shadow: 5px 4px 19px 0px #000000;
+  border-radius: 5%;
+}
